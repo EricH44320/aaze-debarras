@@ -224,7 +224,7 @@ footer a{color:#fff}
 @media(min-width:860px){
  .zgrid{grid-template-columns:1.05fr 1fr;gap:40px 64px;align-items:start}
  .zt{grid-column:1/-1}
- .zm{grid-row:2}.zl{grid-row:2;align-self:center}
+ .zm{grid-row:2;position:sticky;top:96px;align-self:start}.zl{grid-row:2;align-self:start}
 }
 
 /* pages services */
@@ -244,3 +244,18 @@ footer a{color:#fff}
 .svc .more{font-weight:700;color:var(--red);white-space:nowrap;transition:color .3s}
 .svc:hover .more{color:var(--am)}
 .contact .nums{margin:20px 0 22px}
+
+/* europe */
+.eu{margin-top:56px;background:var(--am);color:#2A1400;border-radius:22px;padding:28px 26px;display:grid;gap:18px;align-items:center;justify-items:start;box-shadow:0 18px 40px rgba(0,0,0,.3)}
+.eu h3{font-size:clamp(1.6rem,4vw,2.3rem);margin-bottom:6px}
+.eu p{max-width:36em;font-weight:500}
+.globe{width:96px;height:96px;flex:none}
+.globe .mer{transform-origin:60px 60px;animation:spinm 7s linear infinite}
+.globe .m2{animation-delay:-2.3s}.globe .m3{animation-delay:-4.6s}
+@keyframes spinm{0%,100%{transform:scaleX(1)}50%{transform:scaleX(.06)}}
+.globe .gpin{transform-box:fill-box;transform-origin:center;animation:gp 2s ease-in-out infinite}
+@keyframes gp{50%{transform:scale(1.3)}}
+.eu .eu-btn{background:#2A1400;color:#fff;box-shadow:0 6px 0 #000}
+.eu .eu-btn:hover{background:#3d1f00;box-shadow:0 9px 0 #000}
+@media(min-width:860px){.eu{grid-template-columns:auto 1fr auto;gap:30px;padding:30px 36px}.globe{width:110px;height:110px}}
+/* fin europe */
