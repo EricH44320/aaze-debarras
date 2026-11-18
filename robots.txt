@@ -1,4 +1,5 @@
+
 User-agent: *
 Allow: /
 
-Sitemap: https://erich44320.github.io/aaze-debarras/sitemap.xml
+Sitemap: https://aaze-debarras.fr/sitemap.xml
