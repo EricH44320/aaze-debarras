@@ -226,3 +226,21 @@ footer a{color:#fff}
  .zt{grid-column:1/-1}
  .zm{grid-row:2}.zl{grid-row:2;align-self:center}
 }
+
+/* pages services */
+.ph{background:linear-gradient(160deg,#D81C22,#8A0F14);color:#fff;padding:56px 0 60px}
+.ph h1{font-size:clamp(2.1rem,6vw,3.5rem);max-width:17em}
+.ph .lead{font-size:1.2rem;max-width:34em;margin-top:16px;color:#FFE8DF}
+.ph .cta{margin-top:26px}
+.bc{font-size:.92rem;margin-bottom:16px;color:#FFD9CF}.bc a{color:#fff}
+.pc{padding:64px 0}.narrow{max-width:820px}
+.pc h2{font-size:clamp(1.6rem,4vw,2.2rem);color:var(--red-d);margin:38px 0 12px}
+.pc h2:first-child{margin-top:0}
+.pc p{color:var(--mut);margin-bottom:12px}
+.pc ul{list-style:none;display:grid;gap:8px;margin:8px 0 14px}
+.pc li{padding-left:30px;position:relative}
+.pc li::before{content:"";position:absolute;left:2px;top:.55em;width:14px;height:8px;border-left:3px solid var(--red);border-bottom:3px solid var(--red);transform:rotate(-45deg)}
+.pc ul.oth a{font-weight:700;color:var(--red)}
+.svc .more{font-weight:700;color:var(--red);white-space:nowrap;transition:color .3s}
+.svc:hover .more{color:var(--am)}
+.contact .nums{margin:20px 0 22px}
